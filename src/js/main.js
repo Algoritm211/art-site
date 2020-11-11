@@ -4,6 +4,7 @@ import filter from './modules/filter'
 import forms from './modules/forms'
 import mask from './modules/mask'
 import modals from './modules/modals'
+import pictureSize from './modules/pictureSize'
 import showMoreStyles from './modules/showMoreStyles'
 import sliders from './modules/sliders'
 
@@ -19,4 +20,5 @@ window.addEventListener('DOMContentLoaded', () => {
   showMoreStyles('.button-styles', '#styles .row')
   calc('#size', '#material', '#options', '.promocode', '.calc-price')
   filter()
+  pictureSize('.sizes-block')
 })
